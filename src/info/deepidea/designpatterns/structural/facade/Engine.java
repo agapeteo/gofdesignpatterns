@@ -1,4 +1,4 @@
-package info.deepidea.designpatterns.behavioural.facade;
+package info.deepidea.designpatterns.structural.facade;
 
 public class Engine {
     public void checkEngine() {
