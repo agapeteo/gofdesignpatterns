@@ -1,4 +1,4 @@
-package info.deepidea.designpatterns.structural.observer;
+package info.deepidea.designpatterns.behavioural.observer;
 
 import java.util.ArrayList;
 import java.util.List;
