@@ -2,7 +2,10 @@ package info.deepidea.designpatterns.behavioral.memento;
 
 public class Executor {
     public static void main(String[] args) {
-        PersonalData personalData = new PersonalData("Petia", 36, 78);
+        final String personName = "Petia";
+        final int age = 36;
+        final int weight = 78;
+        PersonalData personalData = new PersonalData(personName, age, weight);
         PersonalDataCaretaker personalDataCaretaker = new PersonalDataCaretaker();
 
         System.out.println(personalData.toString());
